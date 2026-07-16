@@ -25,9 +25,9 @@ function Index() {
     <main className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 overflow-hidden">
       <div className="flex flex-col items-center text-center">
         <img
-          src={logo}
+          src={logoAsset.url}
           alt="PSL logo"
-          className="w-28 h-28 md:w-32 md:h-32 select-none"
+          className="w-32 h-32 md:w-40 md:h-40 mb-8 select-none"
           draggable={false}
         />
         <h1 className="mt-8 text-5xl md:text-6xl font-bold tracking-tight">PSL</h1>
