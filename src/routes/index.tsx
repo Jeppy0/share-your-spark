@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
-import logoAsset from "@/assets/lmxlogo.png.asset.json";
+import logoUrl from "@/assets/lmxlogo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -25,7 +25,7 @@ function Index() {
     <main className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 overflow-hidden">
       <div className="flex flex-col items-center text-center">
         <img
-          src={logoAsset.url}
+          src={logoUrl}
           alt="LMX logo"
           className="w-32 h-32 md:w-40 md:h-40 mb-8 select-none"
           draggable={false}
