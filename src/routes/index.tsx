@@ -5,15 +5,15 @@ import logoAsset from "@/assets/lmxlogo.png.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PSL — Become Top-Tier Attractive" },
+      { title: "LMX — Become Top-Tier Attractive" },
       {
         name: "description",
-        content: "PSL helps you become top-tier attractive. Download on the App Store or Google Play.",
+        content: "LMX helps you become top-tier attractive. Download on the App Store or Google Play.",
       },
-      { property: "og:title", content: "PSL — Become Top-Tier Attractive" },
+      { property: "og:title", content: "LMX — Become Top-Tier Attractive" },
       {
         property: "og:description",
-        content: "PSL helps you become top-tier attractive.",
+        content: "LMX helps you become top-tier attractive.",
       },
     ],
   }),
