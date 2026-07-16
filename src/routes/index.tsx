@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logoAsset from "@/assets/lmxlogo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -25,9 +25,9 @@ function Index() {
     <main className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 overflow-hidden">
       <div className="flex flex-col items-center text-center">
         <img
-          src={logo}
+          src={logoAsset.url}
           alt="PSL logo"
-          className="w-28 h-28 md:w-32 md:h-32 select-none"
+          className="w-32 h-32 md:w-40 md:h-40 mb-8 select-none"
           draggable={false}
         />
         <h1 className="mt-8 text-5xl md:text-6xl font-bold tracking-tight">PSL</h1>
@@ -60,7 +60,9 @@ function Index() {
       </div>
 
       <a
-        href="#creator"
+        href="https://lmxportal.com"
+        target="_blank"
+        rel="noopener noreferrer"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-xs tracking-[0.2em] text-white/50 hover:text-white/80 transition-colors"
       >
         JOIN AS CREATOR
