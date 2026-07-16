@@ -39,23 +39,23 @@ function Index() {
           <a
             href="#"
             aria-label="Download on the App Store"
-            className="inline-flex items-center justify-center w-[168px] h-14 md:w-[192px] md:h-16 transition-transform duration-200 hover:scale-105"
+            className="inline-block transition-transform duration-200 hover:scale-105"
           >
             <img
-              src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+              src={appStoreBadge}
               alt="Download on the App Store"
-              className="w-full h-full object-contain"
+              className="h-14 md:h-16 w-auto"
             />
           </a>
           <a
             href="#"
             aria-label="Get it on Google Play"
-            className="inline-flex items-center justify-center w-[168px] h-14 md:w-[192px] md:h-16 transition-transform duration-200 hover:scale-105"
+            className="inline-block transition-transform duration-200 hover:scale-105"
           >
             <img
-              src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+              src={googlePlayBadge}
               alt="Get it on Google Play"
-              className="w-full h-full object-contain"
+              className="h-14 md:h-16 w-auto"
             />
           </a>
         </div>
