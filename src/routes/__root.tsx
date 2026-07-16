@@ -77,11 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "PSL — Become Top-Tier Attractive" },
-      { name: "description", content: "PSL helps you become top-tier attractive." },
-      { name: "author", content: "PSL" },
-      { property: "og:title", content: "PSL — Become Top-Tier Attractive" },
-      { property: "og:description", content: "PSL helps you become top-tier attractive." },
+      { title: "LMX — Become Top-Tier Attractive" },
+      { name: "description", content: "LMX helps you become top-tier attractive." },
+      { name: "author", content: "LMX" },
+      { property: "og:title", content: "LMX — Become Top-Tier Attractive" },
+      { property: "og:description", content: "LMX helps you become top-tier attractive." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
 

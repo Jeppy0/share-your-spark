@@ -5,15 +5,15 @@ import logoAsset from "@/assets/lmxlogo.png.asset.json";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PSL — Become Top-Tier Attractive" },
+      { title: "LMX — Become Top-Tier Attractive" },
       {
         name: "description",
-        content: "PSL helps you become top-tier attractive. Download on the App Store or Google Play.",
+        content: "LMX helps you become top-tier attractive. Download on the App Store or Google Play.",
       },
-      { property: "og:title", content: "PSL — Become Top-Tier Attractive" },
+      { property: "og:title", content: "LMX — Become Top-Tier Attractive" },
       {
         property: "og:description",
-        content: "PSL helps you become top-tier attractive.",
+        content: "LMX helps you become top-tier attractive.",
       },
     ],
   }),
@@ -26,11 +26,11 @@ function Index() {
       <div className="flex flex-col items-center text-center">
         <img
           src={logoAsset.url}
-          alt="PSL logo"
+          alt="LMX logo"
           className="w-32 h-32 md:w-40 md:h-40 mb-8 select-none"
           draggable={false}
         />
-        <h1 className="mt-8 text-5xl md:text-6xl font-bold tracking-tight">PSL</h1>
+        <h1 className="mt-8 text-5xl md:text-6xl font-bold tracking-tight">LMX</h1>
         <p className="mt-3 text-lg md:text-xl text-white/60">Become Top-Tier Attractive</p>
 
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
