@@ -33,27 +33,27 @@ function Index() {
         <h1 className="mt-8 text-5xl md:text-6xl font-bold tracking-tight">LMX</h1>
         <p className="mt-3 text-lg md:text-xl text-white/60">Become Top-Tier Attractive</p>
 
-        <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#"
             aria-label="Download on the App Store"
-            className="transition-transform hover:scale-[1.03]"
+            className="inline-block transition-transform duration-200 hover:scale-105"
           >
             <img
               src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
               alt="Download on the App Store"
-              className="h-14 w-auto"
+              className="h-14 md:h-16 w-auto"
             />
           </a>
           <a
             href="#"
             aria-label="Get it on Google Play"
-            className="transition-transform hover:scale-[1.03]"
+            className="inline-block transition-transform duration-200 hover:scale-105"
           >
             <img
               src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
               alt="Get it on Google Play"
-              className="h-[68px] w-auto"
+              className="h-14 md:h-16 w-auto"
             />
           </a>
         </div>
