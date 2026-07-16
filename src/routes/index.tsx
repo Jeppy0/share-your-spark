@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logoAsset from "@/assets/lmxlogo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
