@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
 import logoUrl from "@/assets/lmxlogo.png";
+import appStoreBadge from "@/assets/app-store-badge.svg";
+import googlePlayBadge from "@/assets/google-play-badge.svg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
