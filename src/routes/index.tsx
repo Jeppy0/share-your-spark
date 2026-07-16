@@ -25,7 +25,7 @@ function Index() {
     <main className="relative min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 overflow-hidden">
       <div className="flex flex-col items-center text-center">
         <img
-          src={logoAsset.url}
+          src={logoUrl}
           alt="LMX logo"
           className="w-32 h-32 md:w-40 md:h-40 mb-8 select-none"
           draggable={false}
