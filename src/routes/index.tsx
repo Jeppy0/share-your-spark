@@ -60,7 +60,7 @@ function Index() {
       </div>
 
       <a
-        href="https://lmxportal.com"
+        href="https://lmxportal.lovable.app/"
         target="_blank"
         rel="noopener noreferrer"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-xs tracking-[0.2em] text-white/50 hover:text-white/80 transition-colors"
