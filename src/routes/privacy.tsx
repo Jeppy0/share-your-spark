@@ -59,10 +59,10 @@ function PrivacyPage() {
           <p className="mt-4 text-white/70 leading-relaxed">
             Questions or concerns? Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at{" "}
             <a
-              href="mailto:support@lmx-creators.com"
+              href="mailto:lmxappofficial@gmail.com"
               className="text-white underline underline-offset-4 hover:text-white/80"
             >
-              support@lmx-creators.com
+              lmxappofficial@gmail.com
             </a>
             .
           </p>
@@ -277,10 +277,10 @@ function PrivacyPage() {
           <p className="mt-4 text-white/70 leading-relaxed">
             If you have questions or comments about this notice, you may email us at{" "}
             <a
-              href="mailto:support@lmx-creators.com"
+              href="mailto:lmxappofficial@gmail.com"
               className="text-white underline underline-offset-4 hover:text-white/80"
             >
-              support@lmx-creators.com
+              lmxappofficial@gmail.com
             </a>
             .
           </p>

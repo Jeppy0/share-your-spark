@@ -61,10 +61,10 @@ function TermsPage() {
           <p className="mt-4 text-white/70 leading-relaxed">
             You can contact us by email at{" "}
             <a
-              href="mailto:support@lmx-creators.com"
+              href="mailto:lmxappofficial@gmail.com"
               className="text-white underline underline-offset-4 hover:text-white/80"
             >
-              support@lmx-creators.com
+              lmxappofficial@gmail.com
             </a>
             .
           </p>
@@ -266,10 +266,10 @@ function TermsPage() {
           <p className="mt-4 text-white/70 leading-relaxed">
             In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:{" "}
             <a
-              href="mailto:support@lmx-creators.com"
+              href="mailto:lmxappofficial@gmail.com"
               className="text-white underline underline-offset-4 hover:text-white/80"
             >
-              support@lmx-creators.com
+              lmxappofficial@gmail.com
             </a>
             .
           </p>
