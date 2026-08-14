@@ -293,6 +293,51 @@ function PrivacyPage() {
           </p>
         </section>
 
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold tracking-tight">Facial Information Notice</h2>
+          <p className="mt-4 text-white/70 leading-relaxed">
+            The collection, use, storage, disclosure, sharing, and deletion of facial information are described in the following sections of the Privacy Policy:
+          </p>
+          <dl className="mt-6 space-y-6">
+            <div>
+              <dt className="font-medium text-white">Section: Information We Collect — Facial and Camera Data</dt>
+              <dd className="mt-1 text-white/70 leading-relaxed">
+                Explains what facial information and camera data may be processed by the app.
+              </dd>
+            </div>
+            <div>
+              <dt className="font-medium text-white">Section: How We Use Information</dt>
+              <dd className="mt-1 text-white/70 leading-relaxed">
+                Explains that facial information is used solely to provide the facial-analysis functionality requested by the user.
+              </dd>
+            </div>
+            <div>
+              <dt className="font-medium text-white">Section: Data Storage and Retention</dt>
+              <dd className="mt-1 text-white/70 leading-relaxed">
+                Explains how long facial information is retained and when temporary facial information is deleted.
+              </dd>
+            </div>
+            <div>
+              <dt className="font-medium text-white">Section: Data Sharing and Disclosure</dt>
+              <dd className="mt-1 text-white/70 leading-relaxed">
+                Explains whether facial information is shared with third parties and the limited circumstances in which information may be processed by service providers.
+              </dd>
+            </div>
+            <div>
+              <dt className="font-medium text-white">Section: Data Security</dt>
+              <dd className="mt-1 text-white/70 leading-relaxed">
+                Explains the safeguards used to protect information processed by the app.
+              </dd>
+            </div>
+            <div>
+              <dt className="font-medium text-white">Section: Your Rights and Data Deletion</dt>
+              <dd className="mt-1 text-white/70 leading-relaxed">
+                Explains the user's ability to request deletion of applicable personal information and how deletion is handled.
+              </dd>
+            </div>
+          </dl>
+        </section>
+
         <div className="mt-16 border-t border-white/10 pt-8">
           <Link
             to="/"
