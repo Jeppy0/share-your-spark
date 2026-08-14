@@ -338,6 +338,36 @@ function PrivacyPage() {
           </dl>
         </section>
 
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold tracking-tight">Facial and Camera Data</h2>
+          <p className="mt-4 text-white/70 leading-relaxed">
+            When you use features that require facial analysis, the app may process facial information obtained from images or camera input that you provide. This information may include facial landmarks, facial geometry, proportions, and other measurements necessary to provide the requested analysis.
+          </p>
+          <p className="mt-4 text-white/70 leading-relaxed">
+            We use this information solely to provide the facial-analysis features requested by you. We do not sell facial information or use it for advertising, marketing, user profiling unrelated to the requested functionality, or identification of individual users.
+          </p>
+
+          <h3 className="mt-6 font-semibold text-white">Storage and Retention</h3>
+          <p className="mt-2 text-white/70 leading-relaxed">
+            Facial information required only for processing is retained only for the period necessary to perform the requested analysis. Temporary facial information is discarded after processing is completed. We do not intentionally retain raw facial photographs, camera video, or facial-analysis information indefinitely.
+          </p>
+
+          <h3 className="mt-6 font-semibold text-white">Sharing and Disclosure</h3>
+          <p className="mt-2 text-white/70 leading-relaxed">
+            We do not sell or share facial information with third parties for advertising, marketing, data brokerage, or unrelated profiling purposes. Where a service provider is required to process information to provide a specific feature, the provider may process only the information necessary to perform that service and is required to handle the information in accordance with applicable privacy and security requirements.
+          </p>
+
+          <h3 className="mt-6 font-semibold text-white">Deletion</h3>
+          <p className="mt-2 text-white/70 leading-relaxed">
+            Where facial information is stored as part of an app feature, users may delete the applicable information using the deletion functionality provided by the app or by requesting deletion in accordance with this Privacy Policy.
+          </p>
+
+          <h3 className="mt-6 font-semibold text-white">Security</h3>
+          <p className="mt-2 text-white/70 leading-relaxed">
+            We take reasonable technical and organizational measures to protect information processed by the app against unauthorized access, disclosure, alteration, or destruction.
+          </p>
+        </section>
+
         <div className="mt-16 border-t border-white/10 pt-8">
           <Link
             to="/"
