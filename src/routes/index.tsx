@@ -37,7 +37,9 @@ function Index() {
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="#"
+            href="https://apps.apple.com/sg/app/lmx-looksmax-ascend/id6791800260"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="Download on the App Store"
             className="inline-block transition-transform duration-200 hover:scale-105"
           >
