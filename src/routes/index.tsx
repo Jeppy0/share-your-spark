@@ -2,7 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 import { ChevronDown } from "lucide-react";
 import logoUrl from "@/assets/lmxlogo.png";
 import appStoreBadge from "@/assets/app-store-badge.svg";
-import googlePlayBadge from "@/assets/google-play-badge.svg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -35,7 +34,7 @@ function Index() {
         <h1 className="mt-8 text-5xl md:text-6xl font-bold tracking-tight">LMX</h1>
         <p className="mt-3 text-lg md:text-xl text-white/60">Become Top-Tier Attractive</p>
 
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="mt-10 flex items-center justify-center">
           <a
             href="https://apps.apple.com/sg/app/lmx-looksmax-ascend/id6791800260"
             target="_blank"
@@ -46,17 +45,6 @@ function Index() {
             <img
               src={appStoreBadge}
               alt="Download on the App Store"
-              className="h-14 md:h-16 w-auto"
-            />
-          </a>
-          <a
-            href="#"
-            aria-label="Get it on Google Play"
-            className="inline-block transition-transform duration-200 hover:scale-105"
-          >
-            <img
-              src={googlePlayBadge}
-              alt="Get it on Google Play"
               className="h-14 md:h-16 w-auto"
             />
           </a>
